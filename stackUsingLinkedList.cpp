@@ -63,4 +63,9 @@ class Stack {
         } // Return the value of the top mode 
     }
 
+    // Empty operation: check if the stack is empty
+    bool isEmpty()
+    {
+        return top == NULL; // Return true if the top pointer si NULL, indicating an empty stack
+    }
 };
