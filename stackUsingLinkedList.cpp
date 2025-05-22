@@ -13,3 +13,15 @@ class Node {
     }
 };
 
+// Stack class
+class stack {
+    private:
+    Node* top; // Pointer to the top node pf the stack 
+
+    public:
+    stack() {
+        top = NULL; // Initialize the stuck with a null top pointer
+    }
+    
+   
+};
