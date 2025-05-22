@@ -114,7 +114,10 @@ int main()
             }
             break;
 
-   
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
+  
     }
-    return 0;
+    
 }
